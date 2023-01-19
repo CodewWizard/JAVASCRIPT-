@@ -1,0 +1,22 @@
+{
+    "0": {
+        "id": 1,
+        "dictionary": "WaterMelon"
+    },
+    "1": {
+        "id": 2,
+        "dictionary": "Mango"
+    },
+    "2": {
+        "id": 2,
+        "dictionary": "Apple"
+    },
+    "3": {
+        "id": 2,
+        "dictionary": "Banana"
+    },
+    "4": {
+        "id": 2,
+        "dictionary": "carrot"
+    }
+}

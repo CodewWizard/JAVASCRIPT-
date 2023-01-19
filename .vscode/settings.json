@@ -1,0 +1,28 @@
+{
+    "diffEditor.wordWrap": "on",
+    "editor.fontSize":14,
+    "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New', monospace",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name" : "Comment",
+                "scope":[
+                    "comment"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "keyword",
+                "scope":[
+                    "keyword"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "liveServer.settings.port": 5501
+}

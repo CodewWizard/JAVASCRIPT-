@@ -1,0 +1,22 @@
+{
+    "0": {
+        "id": 1,
+        "fruit": "WaterMelon"
+    },
+    "1": {
+        "id": 2,
+        "fruit": "Mango"
+    },
+    "2": {
+        "id": 2,
+        "fruit": "Apple"
+    },
+    "3": {
+        "id": 2,
+        "fruit": "Banana"
+    },
+    "4": {
+        "id": 2,
+        "fruit": "carrot"
+    }
+}

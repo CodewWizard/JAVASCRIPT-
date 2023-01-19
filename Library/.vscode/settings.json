@@ -1,0 +1,18 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Fira Code iScript', Menlo, Monaco, 'Courier New', monospace",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Comment",
+                "scope":[
+                    "",
+                    "keyword"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    }
+}

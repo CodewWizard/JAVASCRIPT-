@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>PostMaster</title>
+</head>
+
+<body>
+    <!-- <h1>PostMaster</h1> -->
+    <div class="container">
+        <h1 class="my-3">PostMaster</h1>
+        <hr>
+    </div>
+
+    <div class="container">
+        <!-- URL box -->
+        <label for="URL"> URL</label><br><br>
+        <input class="form-control" type="text" name="" id="url" placeholder="Enter URL here">
+        <hr>
+        <label for="request">Request Type</label><br><br>
+
+        <div class="form-check">
+            <input class="form-check-input radio" type="radio" name="requestType" id="get" value="get">
+            <label class="form-check-label" for="flexRadioDefault1">
+                GET
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="requestType" id="post" value="post">
+            <label class="form-check-label" for="flexRadioDefault2">
+                POST
+            </label>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <label for="content">Content Type</label><br><br>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="ContentType" id="json" value="json">
+            <label class="form-check-label" for="json">
+                JSON
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="ContentType" id="params" value="params">
+            <label class="form-check-label" for="params">
+                Custom Parameters
+            </label>
+        </div>
+        <!-- Parameter Box- This will hide on clicking json option in content type -->
+        <div id="parametersBox"><hr>
+            <div class="form-row">
+                <label for="url" class="col-sm-2 col-form-label">Parameter 1</label>
+                <div class="form-group col-md-4">
+                    <input type="text" name="params" id="parameterKey" class="form-control"
+                        placeholder="Enter Parameter 1 key">
+                </div>
+                <div style="margin-left: 500px; margin-top: -38px;" class="form-group col-md-4">
+                    <input type="text" name="params" id="parameterValue" class="form-control"
+                        placeholder="Enter Parameter 1 value">
+                </div>
+                <button style="margin-left: 950px; margin-top: -65px;" class="btn btn-primary" id="addParam">+</button>
+            </div>
+        </div>
+
+        <div id="params"></div>
+        <!-- JSON Request Box- This will hide on clicking parameters option in content type -->
+        <div id="reqJsonBox">
+            <hr><label for="jsonBox">Enter Request JSON here</label><br>
+            <br><textarea name="" id="reqjsonText" cols="30" rows="3" class="form-control"></textarea>
+        </div>
+        <br>
+        <button style="width:100px" class="btn btn-primary" id='submit'>Submit</button><br><br>
+
+        <div id="resJsonBox">
+            <hr><label for="jsonBox">Response</label><br>
+            <br><textarea name="" id="resjsonText" cols="30" rows="3" class="form-control" placeholder="Your response will appear here"></textarea><br>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>

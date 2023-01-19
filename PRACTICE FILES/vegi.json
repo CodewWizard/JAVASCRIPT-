@@ -1,0 +1,22 @@
+{
+    "0": {
+        "id": 1,
+        "vegi": "Tomato"
+    },
+    "1": {
+        "id": 2,
+        "vegi": "Potato"
+    },
+    "2": {
+        "id": 2,
+        "vegi": "Onion"
+    },
+    "3": {
+        "id": 2,
+        "vegi": "Spinache"
+    },
+    "4": {
+        "id": 2,
+        "vegi": "Capsicum"
+    }
+}

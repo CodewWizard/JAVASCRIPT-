@@ -1,0 +1,5 @@
+1. AJAX stands for ASYNCHRONUS JAVASCRIPT and XML
+2. It is not programming language
+3. No page reload / refresh
+4. AJAX helps to fetch the data ASYNCHRONUSLY without interfering existing page 
+5. AJAX uses XMLHttpRequest object to achieve this (xhr object)

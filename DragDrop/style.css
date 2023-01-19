@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+}
+.imgBox{
+    position: relative;
+    height: 145px;
+    width: 145px;
+    background-image: url('v7.jpg');
+    /* top: 3.5px; */
+    /* left:3.5px; */
+    cursor: pointer;
+    /* border:thin; */
+}
+.whiteBox{
+    background-color: white;
+    position: relative;
+    height: 148px;
+    width: 148px;
+    display: inline-block;
+    border: black solid 2px;
+}
+.hold{
+    border: 1px red solid;
+}
+.hide{
+    display: none;
+}
+/* .dashed{
+    background-color: rgb(221, 200, 200);
+    /* border-style: dashed; */
+/* }  */

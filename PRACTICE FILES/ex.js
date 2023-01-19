@@ -1,0 +1,10 @@
+let link = document.createElement('a');
+let t = document.createTextNode('This is H!');
+link.append(t);
+link.setAttribute('href','https://codewithharry.com');
+link.id = 'id-link';
+link.className = 'class-link';
+let f = document.querySelector('ul.UL-class');
+console.log(f);
+f.appendChild(link);
+console.log(link);

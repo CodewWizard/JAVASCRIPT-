@@ -1,0 +1,50 @@
+.manager{
+    /* border: 1px solid; */
+    height: 760px;
+    background-color: rgb(227, 205, 248);
+}
+.nav{
+    /* border: 1px solid black; */
+    width: 280px;
+    height: 47.5em;
+    background-color:rebeccapurple;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+.navElements{
+    /* border : 1px solid black; */
+    width: 280px;
+}
+#home{
+    color: white;
+    margin-top:-600px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#guests{
+    /* border: 1px solid; */
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    cursor: pointer;
+}
+.form{
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    width:800px;
+    margin-left: 400px;
+    padding-top: 60px;
+    margin-top: -130px;
+    padding-left:55px;
+    height: 300px;
+}
+.data{
+    /* border: 1px solid; */
+    margin-left: 400px;
+    width: 800px;
+    margin-top: -60px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px  2px 2px gray;
+}
