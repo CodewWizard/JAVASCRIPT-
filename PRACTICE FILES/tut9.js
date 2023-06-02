@@ -33,7 +33,7 @@
 // ***************************************
 
 // let obj = {
-//     name: `Baby`,
+//     name: `demo`,
 //     Love:function() {
 //         return `Madiha`;
 //     }
@@ -43,7 +43,7 @@
 
 // *****************************************
 
-// let arr = [`fruit`, `Virat`, `Baby`];
+// let arr = [`fruit`, `Virat`, `demo`];
 // arr.forEach(function(element, index, array) {
 //     console.log(element, index, array);
 // });
