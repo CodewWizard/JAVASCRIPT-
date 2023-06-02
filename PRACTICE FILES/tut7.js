@@ -1,5 +1,5 @@
 // If else
-console.log("duniya madarchod hai");
+console.log("document");
 
 let age = 71;
 if(age == 17){
