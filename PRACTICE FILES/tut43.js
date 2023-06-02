@@ -22,7 +22,7 @@ const k2 = Symbol('For k2');
 let obj = {};
 obj[k1] = "Maddy";
 obj[k2] = "Harsh";
-obj["name"] = "baby";
+obj["name"] = "demo";
 console.log(obj);
 console.log(obj[k1]);
 console.log(obj[k2]);
