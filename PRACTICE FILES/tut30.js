@@ -3,19 +3,19 @@
 // Await handles program asynchronusly
 console.log("Tutorial No 30");
 
-async function baby() {
-    console.log("Inside baby function");
+async function demo() {
+    console.log("Inside demo function");
     const response = await fetch('vegi.json');
     console.log("Before response");
     const users = await response.json();
     console.log("Users Resoloved");
     return users;
-    // return "Baby";
+    // return "demo";
 }
 
-console.log("Before Calling Baby");
-let obj = baby();
-console.log("After Calling Baby");
+console.log("Before Calling demo");
+let obj = demo();
+console.log("After Calling demo");
 console.log(obj);
 obj.then((data) => console.log(data));
 console.log("Last line of JS file");
