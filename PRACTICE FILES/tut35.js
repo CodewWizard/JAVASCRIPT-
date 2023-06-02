@@ -2,12 +2,12 @@
 console.log('Tutorial No 35');
 
 // Character Set - []
-let regex = /baby/;
-regex = /b[abcd]by/;  //can be an a, b, c or de || either a, b, c or d
-regex = /b[a-z]by/;   // can be from a to z ||either a to z
-regex = /b[^bcd]by/; // ^ means not here ||  cannot be  b, c or d
-regex = /b[^abc]b[yu]/; // cannot be a,b or c + can be y or u
-regex = /b[a-zA-Z]b[yu0-9]/; //we can have many as many character sets as we want
+let regex = /demo/;
+regex = /d[abcd]mo/;  //can be an a, b, c or de || either a, b, c or d
+regex = /d[a-z]mo/;   // can be from a to z ||either a to z
+regex = /d[^bcd]mo/; // ^ means not here ||  cannot be  b, c or d
+regex = /d[^abc]m[yu]/; // cannot be a,b or c + can be y or u
+regex = /d[a-zA-Z]m[yu0-9]/; //we can have many as many character sets as we want
 
 
 // Quantifiers - {}
