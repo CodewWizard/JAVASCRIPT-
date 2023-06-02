@@ -9,7 +9,7 @@ console.log(name);
 console.log(name, channel);
 console.log(1+8);
 var marks = 12;
-var Name = `baby`;
+var Name = `madiha`;
 console.log(name,channel,marks,Name);
 // variables are case Sensitive
 const myname = `maddy`;
