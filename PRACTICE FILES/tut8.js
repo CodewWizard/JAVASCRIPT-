@@ -36,7 +36,7 @@ arr.forEach(function(element, index, array) {
 // Object iteration
 
 let obj = {
-    Name:`Baby`,
+    Name:`madiha`,
     Age:19,
     Profession:`Developer`,
     Love:`ME:)`
