@@ -39,7 +39,7 @@ function getStudent(){
     },1000);
 }
 
-let newStudent = {name:"Baby",Subject:"Python"};
+let newStudent = {name:"name",Subject:"Python"};
 // enrolledStudent(newStudent, getStudent);
 enrolledStudent(newStudent).then(getStudent).catch(function(){
     console.log("error")
