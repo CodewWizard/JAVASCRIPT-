@@ -52,14 +52,14 @@ console.log(marks);
 
 let obj = {
     'name':`Madiha`,
-    babyName:`Harsh`,
+    demo:`Harsh`,
     isActive:true,
     marks:[1, 3, 5]
 }
 
 console.log(obj);
-console.log(obj.babyName);
+console.log(obj.demo);
 console.log(obj.marks);
 console.log(obj.isActive);
 console.log(obj[`name`]);
-console.log(obj[`babyName`]);
+console.log(obj[`demo`]);
