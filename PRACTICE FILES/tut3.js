@@ -52,7 +52,7 @@ console.log("Data Type is: "+(typeof myArr));
 
 // Objects
 let marks = {
-    baby:100,
+    demo:100,
     me:0
 }
 console.log(marks);
