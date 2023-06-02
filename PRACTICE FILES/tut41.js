@@ -5,7 +5,7 @@ console.log('Tutorial No 41');
 const myMap = new Map();
 
 // const key1 = 'String', key2 = {}, key3 = function(){};
-const key1 = 'String Baby', key2 = {name:"Maddy"}, key3 = function(){};
+const key1 = 'String', key2 = {name:"Maddy"}, key3 = function(){};
 
 // Setting map values
 // myMap.set(key1, 1);
