@@ -1,7 +1,7 @@
 // For-in And For-of loop
 console.log('Tutorial No 40');
 
-let people = ['Maddy', 'Baby', 'SkillF', 'Harsh', 'Virat'];
+let people = ['Maddy', 'demo', 'SkillF', 'Harsh', 'Virat'];
 // Traditional for loop
 // for (let index = 0; index < people.length; index++) {
 //     const element = people[index];
@@ -47,7 +47,7 @@ myString = "My string bro";
 // used when we want to fetch keys of object
 console.log('*****FOR-OF LOOP*****');
 
-people = ['Maddy', 'Baby', 'SkillF', 'Harsh', 'Virat'];
+people = ['Maddy', 'demo', 'SkillF', 'Harsh', 'Virat'];
 
 for(let name of people){
     console.log(name);
