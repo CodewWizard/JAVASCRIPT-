@@ -2,7 +2,7 @@ console.log('ASYNCHRONOUS');
 
 
 setTimeout(() => {
-    myFun("I LOVE YOU !!")
+    myFun("hello world!")
 }, 5000);
 
 function myFun(value) {
